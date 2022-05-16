@@ -1,0 +1,6 @@
+FirstName,LastName,Carrier,FlightNumber,TicketNumber,Class,From,To,Date,Sex,SeatNumber,Time,DateofBirth,DoBValidation,PersonValidation,LuggageValidation,NameValidation,BoardingPassValidation,LugaggeValidation,PersonBoardingPassValidation
+Amy, Kumar,UA,234,ETK-72621C,Economy,San Francisco,Chicago,4/20/2022,F,34A,10:00,7/23/1970,False,False,False,False,False,,
+Radha S., Raman,UA,234,ETK-72622C,Economy,San Francisco,Chicago,4/20/2022,M,34B,10:00,4/9/1981,False,False,False,False,False,,
+Libby, Herold,UA,234,ETK-72620C,Business,San Francisco,Chicago,4/20/2022,F,3D,10:00,5/22/1990,False,False,False,False,False,,
+James, Jackson,UA,234,ETK-72623C,Economy,San Francisco,Chicago,4/20/2022,M,25B,10:00,1/9/1988,False,False,False,False,False,,
+Jeffry, Venegas,UA,234,ETK-72624C,Economy,San Francisco,Chicago,4/20/2022,M,20A,10:00,6/17/1995,True,True,False,True,True,True,True
