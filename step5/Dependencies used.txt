@@ -1,0 +1,48 @@
+Dependencies used
+
+Need to install these packages in dev environment:
+    pip install Pillow==8.4
+    pip install video_indexer
+    pip install azure-cognitiveservices-vision-computervision
+    pip install azure-cognitiveservices-vision-customvision
+    pip install azure-cognitiveservices-vision-face
+
+Need to import these python packages:
+
+    import io
+    import datetime
+    import pandas as pd
+
+    import requests
+    import glob, os, sys, time, uuid
+
+    from matplotlib.pyplot import imshow
+    import matplotlib.pyplot as plt
+    %matplotlib inline
+    from urllib.parse import urlparse
+    from io import BytesIO
+    from PIL import Image, ImageDraw
+    import pandas
+    from datetime import datetime
+
+    from urllib.parse import urlparse
+    from PIL import Image, ImageDraw
+
+Azure services specific dependencies:
+
+    from video_indexer import VideoIndexer
+    from azure.cognitiveservices.vision.face import FaceClient
+    from azure.cognitiveservices.vision.face.models import TrainingStatusType
+    from msrest.authentication import CognitiveServicesCredentials
+
+
+    from azure.core.exceptions import ResourceNotFoundError
+    from azure.ai.formrecognizer import FormRecognizerClient
+    from azure.ai.formrecognizer import FormTrainingClient
+    from azure.core.credentials import AzureKeyCredential
+
+
+    from azure.cognitiveservices.vision.customvision.training import CustomVisionTrainingClient
+    from azure.cognitiveservices.vision.customvision.prediction import CustomVisionPredictionClient
+    from azure.cognitiveservices.vision.customvision.training.models import ImageFileCreateBatch, ImageFileCreateEntry, Region
+    from msrest.authentication import ApiKeyCredentials
